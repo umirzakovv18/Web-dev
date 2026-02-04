@@ -1,0 +1,167 @@
+.login {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.create{
+    background-color: #42b72a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 70%;          
+    font-weight: bold;
+    font-size: 16px;
+    height: 50px;
+    
+}
+
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin: 5px;
+    width: 100%;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    width: 360px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    
+}
+
+.logo{
+    color: #1877F2 ;
+}
+
+.forgot{
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+/* Главный контейнер, который держит всё в центре */
+.main-container {
+    display: flex;             /* Включаем магию Flexbox */
+    align-items: flex-start;       /* Выравниваем колонки по вертикали (по центру) */
+    justify-content: center;   /* Выравниваем по центру экрана */
+    width: 980px;              /* Ширина контента как у Facebook */
+    margin: 0 auto;            /* Центрируем сам контейнер */
+    padding-top: 100px;        /* Отступ сверху */
+}
+
+/* Левая колонка (Текст) */
+.left-side {
+    width: 500px;              /* Ширина левой части */
+    padding-right: 30px;       /* Отступ от правой части */
+}
+
+/* Правая колонка (Форма) */
+.right-side {
+    width: 400px;              /* Ширина правой части */
+}
+
+/* Настраиваем логотип, чтобы он был большим */
+.logo {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 0;          /* Убираем лишний отступ снизу */
+    margin-top: 0;
+}
+
+/* Заголовок "Недавние входы" */
+.title {
+    font-size: 30px;
+    font-weight: normal;       /* Не жирный */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #606770;            /* Серый цвет текста */
+    margin-bottom: 20px;
+}
+
+/* Текст под формой ("Создать страницу...") */
+.bottom-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom-text a {
+    color: black;
+    font-weight: bold;
+}
+
+/* Сам блок футера (на всю ширину) */
+footer {
+    background: white;       /* Белый фон */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;       /* Большой отступ от формы входа */
+}
+
+/* Ограничитель ширины (чтобы текст не разъезжался по краям экрана) */
+.footer-wrapper {
+    width: 980px;
+    height: 300px;            /* Ширина как у основного контента */
+    margin: 0 auto;          /* По центру */
+    color: #737373;          /* Темно-серый цвет текста */
+    font-size: 12px;         /* Мелкий шрифт */
+}
+
+/* Ссылки в футере */
+footer a {
+    color: #737373;          /* Серый цвет (перезаписываем синий) */
+    text-decoration: none;
+    margin-right: 10px;      /* Отступ между словами */
+    display: inline-block;   /* Чтобы они выстраивались в строку */
+    margin-bottom: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Кнопка "Плюс" */
+.plus-btn {
+    background: #f0f2f5;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #4b4f56;
+}
+
+/* Горизонтальная линия */
+footer hr {
+    border: 0;
+    border-top: 1px solid #dddfe2;
+    margin: 10px 0;
+}
+
+/* Копирайт (Meta 2026) */
+.copyright {
+    margin-top: 20px;
+    color: #737373;
+}
